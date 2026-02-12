@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Siqueira & Penna Advogados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo-siqueira-penna.png" alt="Siqueira & Penna">
+            </a>
+            <button class="mobile-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="somos.html" class="nav-link">Quem Somos</a></li>
+                <li><a href="areas.html" class="nav-link">Áreas de Atuação</a></li>
+                <li><a href="contato.html" class="nav-link active">Contato</a></li>
+            </ul>
+            <a href="https://api.whatsapp.com/send?phone=5511917653377" class="btn-contact" target="_blank">Atendimento Online</a>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Entre em Contato</h1>
+            <p class="hero-subtitle">Estamos prontos para atendê-lo com excelência</p>
+        </div>
+    </section>
+
+    <section class="contato-page">
+        <div class="container">
+            <div class="contato-grid-page">
+                <div class="contato-info-page" data-aos="fade-right">
+                    <span class="label">Fale Conosco</span>
+                    <br><br>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Telefone</h4>
+                                <p>(11) 91765-3377</p>
+                                <span>Segunda a Sexta, 9h às 18h</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Email</h4>
+                                <p>contato@siqueiraepenna.com.br</p>
+                                <span>Resposta em até 24 horas</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Endereço</h4>
+                                <p>Av. Santo Antônio, 1453, Sala 921</p>
+                                <span>Vila Osasco, Osasco – SP</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 32 32" fill="currentColor">
+                                    <path d="M16 .4C7.4.4.4 7.3.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.6l8-2.1c2.3 1.2 4.9 1.8 7.6 1.8 8.6 0 15.6-6.9 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.7l-.5-.3-4.7 1.2 1.3-4.6-.3-.5c-1.2-2-1.8-4.3-1.8-6.7 0-7 5.7-12.7 12.7-12.7S28.7 9 28.7 16 23 28.9 16 28.9zm7.1-9.6c-.4-.2-2.3-1.1-2.7-1.2-.4-.2-.6-.2-.9.2-.2.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.1-.1-1.2-1.1-1.6-2.3-.2-.4 0-.6.1-.8.2-.2.4-.4.6-.6.2-.2.3-.4.5-.7.2-.3.1-.5 0-.7-.1-.2-.9-2.2-1.2-3-.3-.7-.6-.6-.9-.6h-.8c-.3 0-.7.1-1 .5-.3.4-1.4 1.3-1.4 3.2 0 1.9 1.4 3.7 1.6 4 .2.3 2.7 4.2 6.6 5.7.9.3 1.7.5 2.3.6 1 .2 1.9.1 2.6.1.8-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>WhatsApp</h4>
+                                <p>Atendimento Rápido</p>
+                                <a href="https://api.whatsapp.com/send?phone=5511917653377" class="whatsapp-link" target="_blank">Iniciar Conversa →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contato-form-page" data-aos="fade-left">
+                    <div class="form-box">
+                        <h3>Envie sua Mensagem</h3>
+                        <p>Preencha o formulário abaixo e entraremos em contato em breve</p>
+                        <form onsubmit="handleSubmit(event)">
+                            <div class="form-group-page">
+                                <label>Nome Completo</label>
+                                <input type="text" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-row-page">
+                                <div class="form-group-page">
+                                    <label>Email</label>
+                                    <input type="email" placeholder="seu@email.com" required>
+                                </div>
+                                <div class="form-group-page">
+                                    <label>Telefone</label>
+                                    <input type="tel" placeholder="(11) 00000-0000" required>
+                                </div>
+                            </div>
+                            <div class="form-group-page">
+                                <label>Assunto</label>
+                                <select required>
+                                    <option value="">Selecione uma opção</option>
+                                    <option value="trabalhista">Direito Trabalhista</option>
+                                    <option value="consumerista">Direito Consumerista</option>
+                                    <option value="contratual">Direito Contratual</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="form-group-page">
+                                <label>Mensagem</label>
+                                <textarea rows="6" placeholder="Descreva sua necessidade jurídica..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit-page">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="map-container-full">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0877787954086!2d-46.78844492378632!3d-23.53279596085855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff1e5d9c3c5d%3A0x7e8b9f3c5d9c3c5d!2sAv.%20Santo%20Ant%C3%B4nio%2C%201453%20-%20Vila%20Osasco%2C%20Osasco%20-%20SP%2C%2006083-210!5e0!3m2!1spt-BR!2sbr!4v1709000000000!5m2!1spt-BR!2sbr"
+                allowfullscreen 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo-siqueira-penna.png" alt="Siqueira & Penna" class="footer-logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="somos.html">Quem Somos</a></li>
+                        <li><a href="areas.html">Áreas</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato:</h4>
+                    <p class="footer-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z" />
+                        </svg>
+                        (11) 91765-3377
+                    </p>
+
+                    <p class="footer-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                        contato@siqueiraepenna.com.br
+                    </p>
+                    <br>
+                    <h4>Horário de Atendimento:</h4>
+                    <p>Seg. a Sex. | 09h00 às 18h00</p>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Siqueira & Penna Advogados. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=5511917653377" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Fale conosco no WhatsApp">
+
+    <svg viewBox="0 0 32 32">
+        <path d="M16 .4C7.4.4.4 7.3.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.6l8-2.1c2.3 1.2 4.9 1.8 7.6 1.8 8.6 0 15.6-6.9 15.6-15.6S24.6.4 16 .4zm0 28.5c-2.4 0-4.7-.6-6.7-1.7l-.5-.3-4.7 1.2 1.3-4.6-.3-.5c-1.2-2-1.8-4.3-1.8-6.7 0-7 5.7-12.7 12.7-12.7S28.7 9 28.7 16 23 28.9 16 28.9zm7.1-9.6c-.4-.2-2.3-1.1-2.7-1.2-.4-.2-.6-.2-.9.2-.2.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-.1-.1-1.2-1.1-1.6-2.3-.2-.4 0-.6.1-.8.2-.2.4-.4.6-.6.2-.2.3-.4.5-.7.2-.3.1-.5 0-.7-.1-.2-.9-2.2-1.2-3-.3-.7-.6-.6-.9-.6h-.8c-.3 0-.7.1-1 .5-.3.4-1.4 1.3-1.4 3.2 0 1.9 1.4 3.7 1.6 4 .2.3 2.7 4.2 6.6 5.7.9.3 1.7.5 2.3.6 1 .2 1.9.1 2.6.1.8-.1 2.3-.9 2.6-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/>
+    </svg>
+
+    <span class="whatsapp-tooltip">Fale conosco</span>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
